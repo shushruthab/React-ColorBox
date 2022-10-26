@@ -6,7 +6,7 @@ const Box = ({id, backgroundColor, height, width, handleDelete}) => {
         <div
         className="Box"
         style={{
-            backgroundColor,
+            backgroundColor: backgroundColor,
             width: `${width}em`,
             height: `${height}em`
         }}>
