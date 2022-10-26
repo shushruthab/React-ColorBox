@@ -51,7 +51,7 @@ const NewBoxForm = ({createbox}) => {
             value={formData.height}
             onChange={handleChange}/>
 
-            <label htmlFor="width">Background Color</label>
+            <label htmlFor="width">Width</label>
             <input 
             id="width" 
             type="text" 

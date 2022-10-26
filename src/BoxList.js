@@ -25,7 +25,7 @@ const BoxList = () => {
 
     return (
         <div>
-            <NewBoxForm createBox={add}/>
+            <NewBoxForm createbox={add}/>
             {boxComponents}
         </div>
     );

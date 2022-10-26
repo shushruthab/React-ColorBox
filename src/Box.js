@@ -1,6 +1,7 @@
 import React from "react";
 
 const Box = ({id, backgroundColor, height, width, handleDelete}) => {
+    const remove = () => handleDelete(id);
     return (
         <>
         <div
@@ -11,9 +12,9 @@ const Box = ({id, backgroundColor, height, width, handleDelete}) => {
             height: `${height}em`
         }}>
         </div>
-        <button onSubmit={handleDelete(id)}
+        <button onClick={remove}
         style={{
-            width: width
+            width: `${width}em`
         }}>Delete</button>
         </>
     )
